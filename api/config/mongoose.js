@@ -13,7 +13,7 @@ if (process.env.ENV === "dev") {
 
 exports.connect = () => {
     mongoose
-        .connect(process.env.MONGO_URI)
+        .connect(process.env.MONGO_URI || "mongodb://localhost:27017")
         .then(() => console.log("mongoDB connected..."));
     return mongoose.connection;
 };

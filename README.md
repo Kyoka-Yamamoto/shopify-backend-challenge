@@ -44,22 +44,35 @@ Followings are things you need to use the software and how to install them.
 
 Below is an instruction of installing and setting up the app. 
 
+- In a directory of your choice, clone the git repository, and navigate to the challenge directory
+(example uses HTTPS)
+```
+git clone https://github.com/Kyoka-Yamamoto/shopify-backend-challenge.git
+cd shopify-backend-challenge
+```
+
 - In terminal, run the following to start mongodb server in docker
 
-```jsx
+```
 docker-compose up
 ```
 
-- In “api”, run the following to install dependencies and start the api
+#### API
+
+- To start API, from the root directory (/shopify-backend-challenge), run the following to navigate to the /api directory, install dependencies, and start the api
 
 ```jsx
+cd api
 npm install
 npm run start
 ```
 
-- In “frontend”, run the following to install dependencies and start the frontend application
+#### Frontend
+
+- To start the Frontend, from the root directory (/shopify-backend-challenge), run the following to navigate to the /frontend directory, install dependencies, and start the api
 
 ```jsx
+cd frontend
 npm install
 npm run start
 ```
