@@ -1,0 +1,20 @@
+.table {
+    padding: 2em;
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 5px;
+    text-align: left;
+}
+
+.button {
+    border: 1px solid black;
+    color: rgb(200,200,200);
+}
+
+.button-active {
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
