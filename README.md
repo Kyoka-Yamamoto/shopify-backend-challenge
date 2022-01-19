@@ -87,7 +87,7 @@ npm run start
     - If GET request comes from a client, API gets all inventory items from the database.
     - However, if there is a query in the request, API gets all inventory items from the database that match the query.
     - If POST request comes, API inserts items to the database.
-- “/inventory/<itemId>” endpoint
+- “/inventory/itemId” endpoint
     - If PATCH request comes, API finds the item by id and update the item of the database.
     - If DELETE request comes, API finds the item by id and delete the item of the database.
 
