@@ -84,8 +84,8 @@ npm run start
 - It uses RESTful API.
 - The server is running on localhost:8000.
 - “/inventory” endpoint
-    - If GET request comes from a client, API gets all inventory items from a database.
-    - However, if there is a query parameter, API checks whether parameters include “archived” key. If the parameter includes “archived” key, API gets “archived=true” or “archived=false” items.
+    - If GET request comes from a client, API gets all inventory items from the database.
+    - However, if there is a query in the request, API gets all inventory items from the database that match the query.
     - If POST request comes, API inserts items to the database.
 - “/inventory/<itemId>” endpoint
     - If PATCH request comes, API finds the item by id and update the item of the database.
@@ -94,10 +94,10 @@ npm run start
 ### Frontend
 
 - The server is running on localhost:3000.
-- There are 3 tabs, which is “All”, “Active”, and “Archived”.
+- There are 3 tabs, which are “All”, “Active”, and “Archived”.
     - “All” shows all items.
-    - “Active” shows “archived=false” items.
-    - “Archived” shows “archived=true” items.
+    - “Active” shows non-archived items.
+    - “Archived” shows archived items.
 - To create new inventory item, click “CREATE” button. If you want to create multiple items, check the box of “Create Another”, and then submit.
 - To archive items, click “ARCHIVE” button, and then type archive comments.
 - To change archived to active, click “RESTORE” button.
