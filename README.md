@@ -3,7 +3,7 @@
 
 ## Description
 
-This is an inventory tracking web application for a logistics company. It was made according to the [Shopify Backend Challenge Summer 2022.](https://docs.google.com/document/d/1y6SEqZBqOkS7oz4_h-7N2uho6iORce7uaS01CSkdWyE/edit?usp=sharing) It includes following things.
+This is an inventory tracking web application for a logistics company. It was made according to the [Shopify Backend Challenge Summer 2022.](https://docs.google.com/document/d/1z9LZ_kZBUbg-O2MhZVVSqTmvDko5IJWHtuFmIu_Xg1A/edit#) It includes following things.
 
 - Basic [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) Functionality
     - Create inventory items
